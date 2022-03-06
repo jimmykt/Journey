@@ -16,7 +16,7 @@ app.use(cors());
 const CONNECTION_URL =
   "mongodb+srv://adminjim:jsjourney@cluster0.7vvmz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5051;
 
 mongoose
   .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
